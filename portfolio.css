@@ -2,6 +2,14 @@ html {
 	overflow-x:hidden;
 }
 
+nav {
+	padding-top:1.3vh;
+}
+
+a {
+	color:#888;
+}
+
 .navbar-right {
 	margin-right:5vw;
 }
@@ -29,33 +37,39 @@ html {
 	}
 }
 		
-
 .navbar, .navbar-collapse {
 	min-height:10vh;
 }
-
-#home {
-	background-image:url('assets/ranier.jpg');
+#myPic {
+	width:15vh;
+	height:15vh;
+	border-radius:30%;
 }
+
 #about {
-	background-color:orange;
+	padding:5vw;
+	background-image:url('assets/blur.jpg');
 }
+
+#name {
+	position:relative;
+	top:15vh;
+	text-align:center;
+	color:white;
+}
+
+#name > div > h1 {
+	font-size:6vw;
+}
+
+#name > div > p {
+	font-size:3vw;
+}
+
 #portfolio {
-	background-color:green;
+	background-image:url('assets/hexCode.jpg');
 }
+
 #contact {
-	background-color:yellow;
+	background-image:url('assets/nightStreet.jpg');
 }
-/*
-.nav > li > a {
-	background-color:#333;
-	margin-right:5vw;
-	border-radius:10%;
-}
-
-
-#navContainer {
-	min-height:10vh;
-	padding-top:1vh;
-}
-*/
