@@ -1,9 +1,50 @@
+html {
+	overflow-x:hidden;
+}
+
 .navbar-right {
 	margin-right:5vw;
 }
 
 .navbar-brand {
 	margin-left:5vw;
+}
+
+.section {
+	min-height:100vh;
+	min-width:100vw;
+}
+
+@media (orientation:landscape) {
+	.section {
+		background-size:cover;
+		background-position:bottom;
+	}
+}
+
+@media (orientation:portrait) {
+	.section {
+		background-size:auto 90vh;
+		background-position:bottom;
+	}
+}
+		
+
+.navbar, .navbar-collapse {
+	min-height:10vh;
+}
+
+#home {
+	background-image:url('assets/ranier.jpg');
+}
+#about {
+	background-color:orange;
+}
+#portfolio {
+	background-color:green;
+}
+#contact {
+	background-color:yellow;
 }
 /*
 .nav > li > a {
