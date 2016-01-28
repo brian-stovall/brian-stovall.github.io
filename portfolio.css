@@ -1,3 +1,10 @@
+.navbar-right {
+	margin-right:5vw;
+}
+
+.navbar-brand {
+	margin-left:5vw;
+}
 /*
 .nav > li > a {
 	background-color:#333;
@@ -5,9 +12,6 @@
 	border-radius:10%;
 }
 
-.navbar-brand {
-	margin-right:10vw;
-}
 
 #navContainer {
 	min-height:10vh;
