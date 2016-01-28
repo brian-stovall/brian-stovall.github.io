@@ -71,5 +71,24 @@ a {
 }
 
 #contact {
-	background-image:url('assets/nightStreet.jpg');
+	background-image:url('assets/sparkle.jpg');
 }
+
+#contactRow {
+	position:relative;
+	top:20vh;
+}
+
+#contactRow .btn {
+	margin-bottom:5vh;
+	font-size:3vw;
+}
+
+#contactRow p {
+	margin-bottom:5vh;
+	font-size:5vw;
+	color:white;
+	text-align:center;
+}
+
+
