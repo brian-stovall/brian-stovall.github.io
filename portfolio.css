@@ -6,6 +6,24 @@ nav {
 	padding-top:1.3vh;
 }
 
+.project {
+	color:#ccc;
+	background-color:black;
+	border-radius:5%;
+	padding:2vh 2vw 0 2vw;
+	margin-bottom:2vh;
+	margin-top:2vh;
+}
+
+@media (max-width:450px) {
+	.project h3 {
+		font-size:4vw;
+	}
+
+	.project p {
+		font-size:3vw;
+	}
+}
 
 #about a {
 	color:#888;
@@ -26,7 +44,7 @@ nav {
 
 .section {
 	min-height:100vh;
-	min-width:100vw;
+	width:100vw;
 }
 
 @media (orientation:landscape) {
@@ -74,6 +92,12 @@ nav {
 
 #portfolio {
 	background-image:url('assets/hexCode.jpg');
+	margin:0;
+}
+
+#portfolio h1 {
+	color:white;
+	text-align:center;
 }
 
 #contact {
