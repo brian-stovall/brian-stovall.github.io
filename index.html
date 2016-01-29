@@ -42,8 +42,9 @@
 			<div class='row'>
 			  <p class='xs-col-6'>
 			 		<br>Hello, my name is Brian, and I love solving problems with code. I am working to 
-					hone my skills with the goal of finding a position as junior developer. <br><br>
-					My best skill is self-teaching - I am curious, an avid reader, good at breaking 
+					hone my skills with the goal of finding a position as junior developer, for web or
+					native applications. <br><br> My best skill is self-teaching: I 
+					am curious, an avid reader, good at breaking 
 					problems into small chunks and careful, scientific observation.<br><br>Other
 					skills: HTML, CSS, Javascript, Lua, Python, C, git/GitHub, Vim, Bootstrap, Calculus,
 					Linear Algebra, ODEs. <br><br>I am currently 
@@ -59,6 +60,7 @@
 	<!-- begin portfolio section  -->
 	<div id='portfolio' class='section container'>
 		<div class='row'><h1>Selected Work</h1></div>
+		
 		<div class='row'>
 			<div class='col-xs-6 col-xs-offset-3 project'>
 				<a href='http://brian-stovall.github.io/maze_explorer/' class='thumbnail'>
@@ -69,10 +71,12 @@
 						<p>I have always loved mazes. I was reading about maze generating algorithms
 							 one day and started experimenting, and this is the result (so far). The program
 							 builds a maze and then lets the user explore in different modes, based
-							 on what gear they bring along.</p>
+							 on what gear they decide to bring along. Use vim or arrow keys to 
+							 explore.</p>
 				  </div>
 			</div>
 		</div>
+
 		<div class='row'>
 			<div class='col-xs-6 col-xs-offset-3 project'>
 				<a href='http://brian-stovall.github.io/melanzana/' class='thumbnail'>
@@ -81,10 +85,41 @@
 					<div class='caption'>
 						<h3>Melanaza Timer</h3>
 						<p>I built a pomodoro clock web app, but I like eggplants, so I used an eggplant rather
-							 than a tomato for the graphic. It uses animation frames to draw the eggplant smoothly
-							 over any period of time.</p>
+							 than a tomato for the graphic. It animates via a div element with a higher
+							 z-index "growing" and "shrinking" over a static eggplant image instead of a canvas 
+							 or DOM sprites.</p>
 					</div>
-					</div>
+			</div>
+		</div>
+
+		<div class='row'>
+			<div class='col-xs-6 col-xs-offset-3 project'>
+				<a href='http://brian-stovall.github.io/fruit-up/' class='thumbnail'>
+					<img src='assets/fruitUp.png'>
+				</a>
+					<div class='caption'>
+						<h3>Fruit-Up</h3>
+						<p>When I first started to make webpages, I was suprised how much processing power
+						   it seemed to take to make simple animations compared to native applicatons.
+							 I read about using DOM elements as sprites instead of canvas or libraries like 
+							 Phaser, and I made this silly "screensaver" webpage to stress-test the idea a 
+							 bit and try out DOM spritesheets.</p>
+				  </div>
+			</div>
+		</div>
+
+		<div class='row'>
+			<div class='col-xs-6 col-xs-offset-3 project'>
+				<a href='http://brian-stovall.github.io/web_simon/' class='thumbnail'>
+					<img src='assets/simon.png'>
+				</a>
+					<div class='caption'>
+						<h3>Simon</h3>
+						<p>A webpage rendition of the 'Simon' game. This was early practice in shaping divs, 
+							 controlling state in a webpage, and handling events, sound, and animation in the
+							 browser.</p>
+				  </div>
+			</div>
 		</div>
 	</div>
 	<!-- end portfolio section  -->
@@ -92,7 +127,7 @@
 	<!-- begin contact section  -->
 	<div id='contact' class='section container'>
 	  <div id='contactRow' class='row'>
-				<p>Contact me via:</p> 
+				<p>Connect with me via:</p> 
 				<a href='http://github.com/brian-stovall/'>
 					<div class='col-xs-6 col-xs-offset-3 btn btn-md btn-primary'>
 					<i class='fa fa-github'></i> GitHub</div>
