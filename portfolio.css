@@ -3,7 +3,15 @@ html {
 }
 
 nav {
-	padding-top:1.3vh;
+	padding-top:1.4vh;
+}
+
+nav li a {
+	font-size:2.5vw;
+}
+
+.navbar-brand {
+	font-size:3vw;
 }
 
 .project {
@@ -11,7 +19,7 @@ nav {
 	background-color:black;
 	border-radius:5%;
 	padding:2vh 2vw 0 2vw;
-	margin-bottom:2vh;
+	margin-bottom:4vh;
 	margin-top:2vh;
 }
 
@@ -92,7 +100,7 @@ nav {
 
 #portfolio {
 	background-image:url('assets/hexCode.jpg');
-	margin:0;
+	padding-top:10vh;
 }
 
 #portfolio h1 {
